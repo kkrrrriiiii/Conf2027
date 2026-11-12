@@ -1,0 +1,31 @@
+body {
+  background: #f5f7fb;
+  min-height: 100vh;
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn {
+  border-radius: 6px;
+}
+
+.form-control, .form-select {
+  border-radius: 6px;
+}
+
+.nav-link,
+
+.btn:hover {
+  transform: translate(-2px);
+  box-shadow: 0 4px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+

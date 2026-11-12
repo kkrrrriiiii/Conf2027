@@ -1,0 +1,21 @@
+
+<%- include('header', { title: 'Вход' }) %>
+
+<h1><%= title %></h1>
+
+<% if (errors.lenght) { %>
+<ul>
+    <% errors.forEach (e => { %>
+<li><%= e%></li>
+   <% }) %>
+</ul>
+<% } %>
+
+<form method="POST" action="/login">
+        <input name="login" placeholder="Логин"><br>
+        <input name="password" type="password" placeholder="Пароль"><br>
+        <button> Войти в аккаунт</button>
+        </form>
+
+    
+        <%- include('footer') %>
